@@ -2,10 +2,10 @@ server:
   port: 8761
 
 eureka:
+  datacenter: upc
+  environment: development
   instance:
     hostname: localhost
-    datacenter: upc
-    environment: development
   client:
     registerWithEureka: false
     fetchRegistry: false
